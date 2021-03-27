@@ -4,7 +4,7 @@ require('./styles/index.scss');
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    const pluginsTriggerElement = document.getElementById('plugins-trigger');
+	const pluginsTriggerElement = document.getElementById('plugins-trigger');
     const pluginsElement = document.getElementById('plugins');
 
     const pluginsVisibleClass = "splash-overview-plugins__list--visible";
@@ -12,4 +12,5 @@ document.addEventListener("DOMContentLoaded", () => {
     pluginsTriggerElement.onclick = () => {
         pluginsElement.classList.toggle(pluginsVisibleClass);
     }
+	
 });

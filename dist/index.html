@@ -20,14 +20,14 @@
     <!-- Mobile header color for iOS Safari (supports black, black-translucent or default) -->
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
-</head>
+<link rel="apple-touch-icon" sizes="57x57" href="icons-54619b3cdbd133a274c429a31dc127e8/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="icons-54619b3cdbd133a274c429a31dc127e8/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="icons-54619b3cdbd133a274c429a31dc127e8/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="icons-54619b3cdbd133a274c429a31dc127e8/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="icons-54619b3cdbd133a274c429a31dc127e8/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="icons-54619b3cdbd133a274c429a31dc127e8/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="icons-54619b3cdbd133a274c429a31dc127e8/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="icons-54619b3cdbd133a274c429a31dc127e8/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="icons-54619b3cdbd133a274c429a31dc127e8/apple-touch-icon-180x180.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="bookmarklet"><meta name="mobile-web-app-capable" content="yes"><meta name="theme-color" content="#fff"><meta name="application-name" content="bookmarklet"><link rel="icon" type="image/png" sizes="32x32" href="icons-54619b3cdbd133a274c429a31dc127e8/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="icons-54619b3cdbd133a274c429a31dc127e8/favicon-16x16.png"><link rel="shortcut icon" href="icons-54619b3cdbd133a274c429a31dc127e8/favicon.ico"><link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" href="icons-54619b3cdbd133a274c429a31dc127e8/apple-touch-startup-image-320x460.png"><link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" href="icons-54619b3cdbd133a274c429a31dc127e8/apple-touch-startup-image-640x920.png"><link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" href="icons-54619b3cdbd133a274c429a31dc127e8/apple-touch-startup-image-640x1096.png"><link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" href="icons-54619b3cdbd133a274c429a31dc127e8/apple-touch-startup-image-750x1294.png"><link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3)" href="icons-54619b3cdbd133a274c429a31dc127e8/apple-touch-startup-image-1182x2208.png"><link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="icons-54619b3cdbd133a274c429a31dc127e8/apple-touch-startup-image-1242x2148.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" href="icons-54619b3cdbd133a274c429a31dc127e8/apple-touch-startup-image-748x1024.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" href="icons-54619b3cdbd133a274c429a31dc127e8/apple-touch-startup-image-768x1004.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" href="icons-54619b3cdbd133a274c429a31dc127e8/apple-touch-startup-image-1496x2048.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="icons-54619b3cdbd133a274c429a31dc127e8/apple-touch-startup-image-1536x2008.png"><link href="styles.ed27dbd49e38aa11d05b.css" rel="stylesheet"></head>
 <body>
 <!-- DEMO Project page content STARTS -->
 <div class="splash">
     <div class="splash__content">
         <div class="splash-title">
             <a href="https://github.com/donPabloNow/bookmarklet" target="_blank"><img class="splash-title__img"
-                                                                   src="<%= require('./src/assets/logo-on-dark-bg.png') %>"
+                                                                   src="logo-on-dark-bg.683e4e79f6389d989c70.png"
                                                                    alt="don Pablo Logo"></a>
         </div>
         <div class="splash-overview">
@@ -50,6 +50,9 @@
 							Glance this!
 						</button>
 					<a />
+                    <button id="plugins-trigger" class="splash-overview-plugins__trigger">
+                        Show features
+                    </button>
                     <ul id="plugins" class="splash-overview-plugins__list">
                         <li class="splash-overview-plugins__item">
                             <a target="_blank" href="https://github.com/babel/babel-loader">Using the latest JavaScript</a>
@@ -121,5 +124,5 @@
     gtag('config', 'UA-161901594-1');
 </script>
 <!-- DEMO Project page content ENDS -->
-</body>
+<script type="text/javascript" src="main.5ec0c0f983b1bfb59efc.js"></script></body>
 </html>
