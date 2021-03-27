@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bookmarklet by don Pablo</title>
     <!-- Twitter Card data -->
     <meta name="twitter:card" value="Webpack basic starter project">
-    <meta name="Description" content="A simple webpack starter project for your basic web development needs."/>
+    <meta name="Description" content="A simple webpack starter project for your basic web development needs." />
     <!-- Open Graph data -->
     <meta property="og:title" content="Webpack basic starter project" />
     <meta property="og:type" content="article" />
@@ -21,105 +22,100 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
 </head>
+
 <body>
-<!-- DEMO Project page content STARTS -->
-<div class="splash">
-    <div class="splash__content">
-        <div class="splash-title">
-            <a href="https://github.com/donPabloNow/bookmarklet" target="_blank"><img class="splash-title__img"
-                                                                   src="<%= require('./src/assets/logo-on-dark-bg.png') %>"
-                                                                   alt="don Pablo Logo"></a>
-        </div>
-        <div class="splash-overview">
-            <h1 class="splash-overview__heading">The only bookmarklet you will ever need.
-            </h1>
-            <div class="splash-overview__star">
-                <!-- Place this tag where you want the button to render. -->
-                <a class="github-button" href="https://github.com/donPabloNow/bookmarklet" data-show-count="true"
-                   aria-label="Star lifenautjoe/webpack-starter-basic on GitHub">Star</a>
+    <!-- DEMO Project page content STARTS -->
+    <div class="splash">
+        <div class="splash__content">
+            <div class="splash-title">
+                <a href="https://github.com/donPabloNow/bookmarklet" target="_blank"><img class="splash-title__img"
+                        src="<%= require('./src/assets/logo-on-dark-bg.png') %>" alt="don Pablo Logo"></a>
             </div>
-            <div class="splash-overview__conclusion">
-                <strong> No <a href="https://pragprog.com/the-pragmatic-programmer/extracts/wizards">wizard code</a>,
-                    understandable, scalable.</strong>
-            </div>
-            <div class="splash-overview__details">
-                A <strong>minimal</strong> yet <strong>rich</strong> set of features.
-                <div class="splash-overview-plugins">
-					<a href="javascript:(function(){ cb = function(){ create_spritz(); }; var script=document.createElement('SCRIPT');script.src='https://miserlou.github.io/Glance-Bookmarklet/spritz.js?callback=cb'; script.onload=cb; document.body.appendChild(script);})();">
-						<button class="splash-overview-plugins__trigger">
-							Glance this!
-						</button>
-					<a />
-                    <ul id="plugins" class="splash-overview-plugins__list">
-                        <li class="splash-overview-plugins__item">
-                            <a target="_blank" href="https://github.com/babel/babel-loader">Using the latest JavaScript</a>
-                        </li>
-                        <li class="splash-overview-plugins__item">
-                            <a target="_blank" href="https://github.com/webpack-contrib/sass-loader">Write in Sass</a>
-                        </li>
-                        <li class="splash-overview-plugins__item">
-                            <a target="_blank" href="https://github.com/webpack-contrib/url-loader">Assets bundled</a>
-                        </li>
-                        <li class="splash-overview-plugins__item">
-                            <a target="_blank"
-                               href="https://github.com/webpack/webpack-dev-server">Development preview</a>
-                        </li>
-                        <li class="splash-overview-plugins__item">
-                            <a target="_blank" href="https://github.com/postcss/autoprefixer">Vendor includes prefixed</a>
-                        </li>
-                        <li class="splash-overview-plugins__item">
-                            <a target="_blank" href="https://github.com/webpack-contrib/uglifyjs-webpack-plugin">Scripts Optimized for production</a>
-                        </li>
-                        <li class="splash-overview-plugins__item">
-                            <a target="_blank" href="https://github.com/NMFR/optimize-css-assets-webpack-plugin">Styles Optimized for production</a>
-                        </li>
-                        <li class="splash-overview-plugins__item">
-                            <a target="_blank" href="https://github.com/jantimon/favicons-webpack-plugin">Favicons</a>
-                        </li>
-                        <li class="splash-overview-plugins__item">
-                            <a target="_blank" href="https://developers.google.com/web/updates/2014/11/Support-for-theme-color-in-Chrome-39-for-Android">Mobiel friendly</a>
-                        </li>
-                    </ul>
+            <div class="splash-overview">
+                <h1 class="splash-overview__heading">The only bookmarklet you will ever need.
+                </h1>
+                <div class="splash-overview__star">
+                    <!-- Place this tag where you want the button to render. -->
+                    <a class="github-button" href="https://github.com/donPabloNow/bookmarklet" data-show-count="true"
+                        aria-label="Star lifenautjoe/webpack-starter-basic on GitHub">Star</a>
                 </div>
-            </div>
-            <div class="splash-overview-start">
-                <div class="splash-overview-start__command">
-                    git clone https://github.com/donPabloNow/bookmarklet bookmarklet
+                <div class="splash-overview__conclusion">
+                    <strong> No <a href="https://pragprog.com/the-pragmatic-programmer/extracts/wizards">wizard
+                            code</a>,
+                        understandable, scalable.</strong>
                 </div>
-                <div class="splash-overview-start__command">
-                    cd bookmarklet
+                <div class="splash-overview__details">
+                    A <strong>minimal</strong> yet <strong>rich</strong> set of features.
+                    <div class="splash-overview-plugins">
+                        <a
+                            href="javascript:(function(){ var script=document.createElement('SCRIPT');script.src='https://raw.githubusercontent.com/donPabloNow/bookmarklet/main/dist/main.js'; document.body.appendChild(script);})();">
+                            <button class="splash-overview-plugins__trigger">
+                                BOOKMARKLET
+                            </button>
+                        </a>
+                        <small>
+                            <p><b><i>Developted using</i></b>, <a target="_blank"
+                                    href="https://github.com/babel/babel-loader">Using the latest JavaScript</a>, <a
+                                    target="_blank" href="https://github.com/webpack-contrib/sass-loader">Write in
+                                    Sass</a>, <a target="_blank"
+                                    href="https://github.com/webpack-contrib/url-loader">Assets
+                                    bundled</a>, <a target="_blank"
+                                    href="https://github.com/webpack/webpack-dev-server">Development
+                                    preview</a>, <a target="_blank"
+                                    href="https://github.com/postcss/autoprefixer">Vendor includes
+                                    prefixed</a>, <a target="_blank"
+                                    href="https://github.com/webpack-contrib/uglifyjs-webpack-plugin">Scripts Optimized
+                                    for production</a>, <a target="_blank"
+                                    href="https://github.com/NMFR/optimize-css-assets-webpack-plugin">Styles Optimized
+                                    for production</a>, <a target="_blank"
+                                    href="https://github.com/jantimon/favicons-webpack-plugin">Favicons</a>, <a
+                                    target="_blank"
+                                    href="https://developers.google.com/web/updates/2014/11/Support-for-theme-color-in-Chrome-39-for-Android">Mobiel
+                                    friendly</a>
+                            </p>
+                        </small>
+                    </div>
                 </div>
-                <div class="splash-overview-start__command">
-                    yarn <span class="splash-overview-start__comment"># Install dependencies </span>
+                <div class="splash-overview-start">
+                    <div class="splash-overview-start__command">
+                        git clone https://github.com/donPabloNow/bookmarklet bookmarklet
+                    </div>
+                    <div class="splash-overview-start__command">
+                        cd bookmarklet
+                    </div>
+                    <div class="splash-overview-start__command">
+                        yarn <span class="splash-overview-start__comment"># Install dependencies </span>
+                    </div>
+                    <div class="splash-overview-start__command">
+                        yarn start <span class="splash-overview-start__comment"># Start the development server</span>
+                    </div>
+                    <div class="splash-overview-start__command">
+                        yarn build <span class="splash-overview-start__comment"># Build for production</span>
+                    </div>
                 </div>
-                <div class="splash-overview-start__command">
-                    yarn start <span class="splash-overview-start__comment"># Start the development server</span>
+                <div class="splash-overview-issues">
+                    <div>Have an issue or are in need of guidance?</div>
+                    <strong>Open an issue <a href="https://github.com/donPabloNow/bookmarklet/issues">here</a>.
+                    </strong>
                 </div>
-                <div class="splash-overview-start__command">
-                    yarn build <span class="splash-overview-start__comment"># Build for production</span>
+                <div class="splash-overview-footer">
+                    A project by <strong>, <a target="_blank"
+                            href="https://www.instagram.com/donpablonow">@donpablonow</a></strong>.
                 </div>
-            </div>
-            <div class="splash-overview-issues">
-                <div>Have an issue or are in need of guidance?</div>
-                <strong>Open an issue <a
-                    href="https://github.com/donPabloNow/bookmarklet/issues">here</a>. </strong>
-            </div>
-            <div class="splash-overview-footer">
-                A project by <strong><a target="_blank" href="https://www.instagram.com/donpablonow">@donpablonow</a></strong>.
             </div>
         </div>
     </div>
-</div>
-<script async defer src="https://buttons.github.io/buttons.js"></script>
-<!-- Global Site Tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161901594-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161901594-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    gtag('config', 'UA-161901594-1');
-</script>
-<!-- DEMO Project page content ENDS -->
+        gtag('config', 'UA-161901594-1');
+    </script>
+    <!-- DEMO Project page content ENDS -->
 </body>
+
 </html>

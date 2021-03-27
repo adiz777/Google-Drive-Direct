@@ -21,6 +21,7 @@
     },
     "homepage": "",
     "dependencies": {
+        "browserlist": "^1.0.1",
         "normalize.css": "^8.0.0"
     },
     "devDependencies": {
