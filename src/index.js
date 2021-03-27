@@ -8,9 +8,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const pluginsElement = document.getElementById('plugins');
 
     const pluginsVisibleClass = "splash-overview-plugins__list--visible";
-
-    pluginsTriggerElement.onclick = () => {
-        pluginsElement.classList.toggle(pluginsVisibleClass);
-    }
-	
+    /*
+        pluginsTriggerElement.onclick = () => {
+            pluginsElement.classList.toggle(pluginsVisibleClass);
+        }
+	*/
 });
