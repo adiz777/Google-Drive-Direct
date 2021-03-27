@@ -1,3 +1,6 @@
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').config();
+}
 const path = require('path');
 
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin')
@@ -90,6 +93,7 @@ module.exports = {
             template: './index.html',
             // Inject the js bundle at the end of the body of the given template
             inject: 'body',
+            environment: process.env.APP_URL
         }),
         new CleanWebpackPlugin(buildPath),
         new FaviconsWebpackPlugin({
