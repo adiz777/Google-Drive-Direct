@@ -1,0 +1,4 @@
+{{ $script := .Site.Data.webpack_assets.app }}
+{{ with $script.js }}
+<script %s%s src="{{ relURL (printf "" "dist/" .) }}"></script>
+{{ end }}
