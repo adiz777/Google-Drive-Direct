@@ -8,11 +8,4 @@ Google Drive Direct
 The Google Drive Direct Bookmarklet is a bookmark that allows you to input a download URL and have it added directly to your Google Drive almost instantly, without using your bandwidth. Its really easy, drag and drop the bookmark onto your address bar, click on the bookmark enter the details, and done. It fast, easy to use and completely free.
 
 
-![Deploy](https://lh3.googleusercontent.com/7Rt8jZhq2EoBXhnDnXizU8KvjVPJpbUZXjd7fCS2ZBlytMGqLZ3UB4sovW5Rkgnaynr_m644LgC65jXRWAh3ummVbtjwuqCNbm4F)
-
-
-![Deploy](https://getintopc.com/wp-content/uploads/2013/10/Google-Drive.png)
-
-
-
 ![Deploy](https://cdn.dribbble.com/users/5884695/screenshots/14298415/media/a756673a66d679365d04a8e36f8b75b1.jpg)
