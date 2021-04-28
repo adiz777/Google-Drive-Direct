@@ -1,9 +1,9 @@
 Google Drive Direct
 
-(https://getintopc.com/wp-content/uploads/2013/10/google-drive-security.jpg)
+[](https://getintopc.com/wp-content/uploads/2013/10/google-drive-security.jpg)
 
 
-(https://cdn.dribbble.com/users/886569/screenshots/6397261/ezgif.com-optimize__17_.gif)
+[](https://cdn.dribbble.com/users/886569/screenshots/6397261/ezgif.com-optimize__17_.gif)
 
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Ftree%2Fcanary%2Fexamples%2Fhello-world) [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
