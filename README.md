@@ -1,3 +1,5 @@
+<a href="javascript:function C(v){return '<td>'+v+'</td><td>'+((v>>4).toString(16)+(v&amp;15).toString(16)).toUpperCase()+'</td><td bgcolor=DDDDDD><b>&amp;'+'#'+v+';</b></td>';}var c=4,b=Math.ceil(224/c),a='<table border=0><tr>';for(j=0;j<c;j++){a+='<td>DEC</td><td>HEX</td><td><b>ASC</b></td>';}a+='</tr>';for(i=32;i<33+b;i++){a+='<tr>';for(j=0;j<c;j++){t=i+(j*b);if(t<=255)a+=C(t);}a+='</tr>';}a+='</table>';var W=open('','','width=500,height=600,left=0,top=0,resizable,scrollbars');void(W.document.writeln(a));" title="ASCII Table" class="button">ASCII</a>
+
 # Google Drive Direct
 
 [![Deploy](https://camo.githubusercontent.com/76e60919474807718793857d8eb615e7a50b18b04050577e5a35c19421f260a3/68747470733a2f2f676974706f642e696f2f627574746f6e2f6f70656e2d696e2d676974706f642e737667)](https://gitpod.io/#https://github.com/donPabloNow/Google-Drive-Direct)
